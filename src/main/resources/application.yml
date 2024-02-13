@@ -1,0 +1,13 @@
+#Kafka config
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: group-id
+      auto-offset-reset: earliest
+    producer:
+      retries: 0
+    template:
+      default-topic: subscribers
+
+
